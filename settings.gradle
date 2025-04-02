@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // Add this if you need it for MySQL connector
+        maven {
+            url "https://repo1.maven.org/maven2/"
+        }
+    }
+}
+
+rootProject.name = "MADPROJECTMICRO"
+include ':app'
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvCustomerId" type="id" />
+    <item name="tvCustomerEmail" type="id" />
+    <item name="tvCustomerPhone" type="id" />
+    <item name="tvRoomType" type="id" />
+    <item name="tvBeds" type="id" />
+    <item name="tvRate" type="id" />
+    <item name="tvStatus" type="id" />
+</resources>
